@@ -1,0 +1,23 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "code-challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KabiruH/Code-challenge1.git"
+  },
+  "keywords": [
+    "code",
+    "challenge"
+  ],
+  "author": "Kabiru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KabiruH/Code-challenge1/issues"
+  },
+  "homepage": "https://github.com/KabiruH/Code-challenge1#readme"
+}
