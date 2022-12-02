@@ -1,11 +1,11 @@
 function netSalaryCalculator (income){
-
+// this function refers to the total of the income, without the deductions yet
     
     let NHIF = 0
     let NSSF = 0
     let PAYE = 0
     let net = 0
-    
+    //this is to define the NHIF, NSSF, PAYE & net
       
       function getNHIF (NHIF){  
         
@@ -87,13 +87,14 @@ function netSalaryCalculator (income){
         }
         console.log ("your PAYE is", PAYE)
     }
+    //this is to compute the tax  
         
         getNHIF()
         getNSSF()
         getPAYE()
         net = income - (NSSF + NHIF + PAYE)
         return ('your net is', net)
-        //this is to compute the tax    
+          //this is to call on the functions through the code
         
     }
         //this gives a summary of the computations plus
